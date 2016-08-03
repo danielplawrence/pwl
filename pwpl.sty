@@ -1,0 +1,296 @@
+% PWPL LaTeX style.  Alexis Dimitriadis 8/12/97 (alexis@ling.upenn.edu)
+%
+% % Revised for volume 6, 10/21/98.
+% % Corrections, Aug 99.
+
+% slightly modified w/ suggestions from Gerhard Schaden <2009/06/25>: set font 
+% to mathptmx, and switched to fancyhdr, following the recommendations in l2tabu
+%
+% modified by Tatjana Scheffler <2004/10/17> (tatjana@ling.upenn.edu)
+% revised for volume 11.1
+
+% revised for volume 14.2
+% no longer in landscape mode
+
+% Include this file like other style packages:
+% \documentclass{article}
+% \usepackage{PWPL}
+%
+% (With LaTeX 2.09: \documentstyle[PWPL]{article} )
+%
+% Editors: See the bottom of this file for how to get headers/footers.
+
+% TITLE BLOCK DIRECTIONS:
+%
+% To format your title and name, use the standard commands \title{...},
+% \author{...}, and \maketitle.
+%
+% If there are multiple authors, use \and where the word ``and'' should appear.
+% Example:  \author{Author1, Author2 \and Author3}
+
+% If the title is more than about half a line long, use \shorttitle to 
+% provide an alternate title that will appear in the headings.
+% (You do not need to do this if the full title is short enough).
+%
+% If there should happen to be too many authors, use \shortauthor{...} to
+% provide an abbreviated form.
+
+% If you want an acknowledgements footnote in the title, use \thanks{...}
+% instead of \footnote.  (This is a standard command, see the LaTeX manual).
+% Do not give author affiliations or addresses as footnotes: these go to
+% the end of the paper.
+
+
+% This file also defines the following for your convenience:
+% \twelvepoint  (actually same as \large)
+% \tenpoint	(actually same as \normalsize)
+% \ninepoint	(actually same as \small)
+
+% When you need to skip one line, you can do it like this:
+%    \vspace{\onelineskip}
+% or \\[\onelineskip]
+%
+
+%  (End of the usage directions)
+
+
+\@ifundefined{ProvidesPackage}{}
+  {\ProvidesPackage{PWPL}[Penn Working Papers in Linguistics style]}
+
+% This is what we use when the directions say to ``skip one line''.
+% One actual line, but with a bit of flex to help things fit.
+%
+\newskip\onelineskip 
+\onelineskip=\baselineskip \advance\onelineskip by 0pt plus 4pt minus 2pt
+
+\newlength{\pwplindent}
+\pwplindent=0.25in
+
+
+% FONTS
+
+\@input{mathptmx.sty}	% If we can't find times, we'll go on anyways.
+
+% Make sure we are in 10-point format:
+\if\@ptsize 0 \else
+	\@latexerr{PWPL.sty MUST be used with 10-point text, do not use
+[1\@ptsize pt]}\fi
+
+% Font sizes as defined in size10:
+
+\let\twelvepoint=\large
+\let\tenpoint=\normalsize
+\let\ninepoint=\small
+
+
+% TITLE BLOCK
+
+% Syntax:
+%   \titleblock {Full Title} [Short Title] {Author(s)}
+% This is now just an alternative to the standard \maketitle mechanism.
+% If present, the optional Short Title will be used in the running headers.
+% Otherwise, the full title is used.  Use \and to separate authors' names.
+\def\titleblock#1{\@ifnextchar[{\@longshorttblock{#1}}{\@onetblock{#1}}}
+\def\@onetblock#1#2{\@longshorttblock{#1}[#1]{#2}}
+\def\@longshorttblock#1[#2]#3{\title{#1}\author{#3}\maketitle
+  \gdef\thanks##1{}% suppress \thanks properly (after \maketitle munges it)
+  \shorttitle{#2}}
+
+% Called by the standard \maketitle:
+% Format title block, then save title and author for use in the headers.  
+% Be VERY CAREFUL about modifying this, it's very tricky to get the spacing
+% so it works right whether or not the title is followed by a section heading.
+%
+\def\@maketitle{{\centering \twelvepoint\bf \@title \par}%
+  \vskip\onelineskip
+  {\centering \twelvepoint \def\and{and }\@author \par}%
+  \global\everypar{\everypar{}\vskip 0pt\noindent}%  the spacing magic
+  \def\thanks##1{}% suppress \thanks properly (eat the argument)
+  % Now fix things up for the page headers
+  \@ifundefined{@pgauthor}{\shortauthor{\@author}}{}%
+  \@ifundefined{@pgtitle}{\shorttitle{\@title}}{}{}}
+
+% Restore pagestyle to empty (if no headers) after \maketitle stupidly sets
+% it to plain. 
+\let\@sv@maketitle=\maketitle
+\def\maketitle{\@sv@maketitle\ifpwplheadings\else\thispagestyle{empty}\fi}
+
+% Set alternate author and title for headings (\maketitle disables \author,
+% \title). 
+%
+\def\shortauthor#1{\def\and{\& }\xdef\@pgauthor{\uppercase{#1}}}
+\def\shorttitle#1{\xdef\@pgtitle{\uppercase{#1}}}
+
+
+% MARGINS & ORIENTATION
+
+% Horizontal: 1.5 + 5.5 + 1.5 = 8.5 in
+% Vertical:   1.0 + 9.0 + 1.0 = 11 in
+%
+\topmargin = -0.50in	  % Off of 1.5in, really 1in
+\textheight = 9in	  % bottom margin 1in
+\oddsidemargin = 0.5in  % really 1.5in
+\evensidemargin = \oddsidemargin
+\textwidth =  5.5in	  % right margin 1.5in
+
+% change \topmargin, \headsep in tandem, or the top margin will move!
+\def\raiseheader#1{\@tempdima=#1\relax
+  \advance\headsep by \@tempdima \advance\topmargin by -\@tempdima \relax}
+
+%\raiseheader{-0.08in}
+\advance \footskip by -0.08in
+
+
+
+% Do most of what the twoside request achieves
+%
+\@twosidetrue \@mparswitchtrue
+\flushbottom		  % match the bottom margins of facing pages..
+
+
+% NO HEADERS/FOOTERS or PAGE NUMBERS
+\pagestyle{empty}
+
+
+% PARAGRAPHS
+\parskip = 0in
+\parindent=\pwplindent
+
+% list indentation
+\leftmargini=\pwplindent
+
+
+% HEADLINES: 
+% Set all section headers to the text font size, skip one line above.
+
+
+\def\section{\@startsection {section}{1}{\z@}%
+  {-1.2\onelineskip plus -4pt}{1.2\onelineskip}{\raggedright\twelvepoint\bf\boldmath}}
+
+\def\any@section#1#2{\@startsection {#1}{#2}{\z@}%
+  {-1\onelineskip plus -3pt}{\onelineskip}{\raggedright\normalsize\bf\boldmath}}
+
+\def\subsection{\any@section{subsection}{2}}
+\def\subsubsection{\any@section{subsubsection}{3}}
+%\def\paragraph{\any@section{paragraph}{4}}
+%\def\subparagraph{\any@section{subparagraph}{5}}
+
+% If \@seccntformat is undefined, we are in LaTeX 2.09.  
+% Redefine \@sect to use it.  Otherwise, the section number format is
+% hard-coded. (in the redefinition of \@svsec).
+%
+\@ifundefined{@seccntformat}{%
+ \def\@sect#1#2#3#4#5#6[#7]#8{\ifnum #2>\c@secnumdepth
+     \def\@svsec{}\else 
+     \refstepcounter{#1}\edef\@svsec{\@seccntformat{#1}\relax}\fi
+     \@tempskipa #5\relax
+      \ifdim \@tempskipa>\z@ 
+        \begingroup #6\relax
+          \@hangfrom{\hskip #3\relax\@svsec}{\interlinepenalty \@M #8\par}%
+        \endgroup
+       \csname #1mark\endcsname{#7}\addcontentsline
+         {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+                      \protect\numberline{\csname the#1\endcsname}\fi
+                    #7}\else
+        \def\@svsechd{#6\hskip #3\@svsec #8\csname #1mark\endcsname
+                      {#7}\addcontentsline
+                           {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+                             \protect\numberline{\csname the#1\endcsname}\fi
+                       #7}}\fi
+     \@xsect{#5}}
+}{\relax}
+
+% Set two spaces (no period anymore!) after section numbers.
+%
+%\def\@seccntformat#1{\hbox to \pwplindent{\csname the#1\endcsname.\hfil}} 
+\def\@seccntformat#1{\csname the#1\endcsname~~} 
+
+\renewenvironment{quote}
+               {\list{}{\leftmargin=\pwplindent \rightmargin\leftmargin}%
+                \item[]}
+               {\endlist}
+
+
+% JUSTIFICATION (on by default)
+
+
+% FOOTNOTES
+% The size10 style makes footnotes 8pt by default.
+% The following makes footnotesize 9pt, but with more compact display skips
+% than \small, which is also 9pt.  (stolen from art11.sty).
+%
+\def\footnotesize{%
+  \@setsize\footnotesize{11pt}\ixpt\@ixpt
+  \abovedisplayskip 8pt plus 2pt minus 4pt\belowdisplayskip \abovedisplayskip
+  \abovedisplayshortskip \z@ plus 1pt
+  \belowdisplayshortskip 4pt plus 2pt minus 2pt
+  \def\@listi{\leftmargin\leftmargini \topsep 4pt plus 2pt minus 2pt
+    \parsep 2pt plus 1pt minus 1pt \itemsep \parsep}}
+
+
+
+% BIBLIOGRAPHY
+
+% You should set the bibliography to \ninepoint, and remember to skip an extra
+% line before it
+
+\def\bibindent{\pwplindent}
+
+% OTHER
+
+% Allow two tables at page bottom, not just one
+\setcounter{bottomnumber}{2}
+
+
+% Page numbers, headers, footers (for Editors' use)
+
+
+% If a user does not have fancyheadings, just do nothing:
+\@input{fancyhdr.sty}
+\@ifundefined{fancyplain}{}{
+
+\renewcommand{\headrulewidth}{0pt}
+
+%      Even (right) pages             		Odd (left) pages
+      
+\lhead [\fancyplain{}{\thepage}]           	 {}
+\rhead []                   			 {\fancyplain{}{\thepage}}
+\chead [\fancyplain{}{\def\and{\& }\@pgauthor}]  {\fancyplain{}{\@pgtitle}}
+
+\lfoot{}
+\cfoot{}
+\rfoot[]{\fancyplain{\it \FirstFooter}{}}
+
+\edef\ThisYear{2012}   %{\the\year}
+
+\def\FirstFooter{U. Penn Working Papers in Linguistics, 
+	Volume \ThisVolume, \ThisYear} 
+
+}
+
+\pagestyle{empty}  % Turn it all off for now
+
+
+\newif\ifpwplheadings
+\def\addheadings{\pagestyle{fancyplain}\pwplheadingstrue}
+
+
+% %%%%%%%%%%%  For editors' use:  %%%%%%%%%%%%
+
+% To make a printout with headings,
+% (a) (re)define the volume number below.
+
+\def\ThisVolume{18.2}
+
+% (b) Uncomment the following line.
+
+\addheadings
+
+% (c) If necessary, define a short title with \shorttitle (and perhaps
+% short author string with \shortauthor
+
+% (d) Put the following in the document preamble, suitably edited.
+%
+% \setcounter{page}{61}				% starting page number
+
+

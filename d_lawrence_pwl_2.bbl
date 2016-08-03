@@ -1,0 +1,50 @@
+\begin{thebibliography}{6}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Eckert(2008)}]{eckert2008variation}
+\vspace*{-7pt}
+Eckert, Penelope. 2008.
+\newblock Variation and the indexical field.
+\newblock {\em Journal of Sociolinguistics\/} 12:453--476.
+
+\bibitem[{Ester et~al.(1996)Ester, Kriegel, Sander, and Xu}]{ester1996density}
+\vspace*{-7pt}
+Ester, Martin, Hans-Peter Kriegel, J{\"o}rg Sander, and Xiaowei Xu. 1996.
+\newblock A density-based algorithm for discovering clusters in large spatial
+  databases with noise.
+\newblock {\em Kdd\/} 96:226--231.
+
+\bibitem[{Fruehwald(2013)}]{fruehwald2013phonological}
+\vspace*{-7pt}
+Fruehwald, Josef. 2013.
+\newblock The Phonological Influence on Phonetic Change.
+\newblock Doctoral dissertation, University of Pennsylvania.
+
+\bibitem[{Haddican et~al.(2013)Haddican, Foulkes, Hughes, and
+  Richards}]{haddican2013interaction}
+\vspace*{-7pt}
+Haddican, Bill, Paul Foulkes, Vincent Hughes, and Hazel Richards. 2013.
+\newblock Interaction of social and linguistic constraints on two vowel changes
+  in {N}orthern {E}ngland.
+\newblock {\em Language Variation and Change\/} 25:371--403.
+
+\bibitem[{Harrington et~al.(2008)Harrington, Kleber, and
+  Reubold}]{harrington2008compensation}
+\vspace*{-7pt}
+Harrington, Jonathan, Felicitas Kleber, and Ulrich Reubold. 2008.
+\newblock Compensation for coarticulation,/u/-fronting, and sound change in
+  standard southern british: An acoustic and perceptual study.
+\newblock {\em The Journal of the Acoustical Society of America\/}
+  123:2825--2835.
+
+\bibitem[{Watt(2000)}]{watt2000phonetic}
+\vspace*{-7pt}
+Watt, Dominic~JL. 2000.
+\newblock Phonetic parallels between the close-mid vowels of {T}yneside
+  {E}nglish: Are they internally or externally motivated?
+\newblock {\em Language Variation and Change\/} 12:69--101.
+
+\end{thebibliography}

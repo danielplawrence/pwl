@@ -1,0 +1,635 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.2)  3 AUG 2016 20:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**d_lawrence_pwl_2
+(./d_lawrence_pwl_2.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./PWPL.sty
+Package: PWPL Penn Working Papers in Linguistics style
+\onelineskip=\skip43
+\pwplindent=\skip44
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/mathptmx.sty
+
+LaTeX Warning: You have requested package `PWPL',
+               but the package provides `mathptmx'.
+
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip45
+\f@ncyO@elh=\skip46
+\f@ncyO@erh=\skip47
+\f@ncyO@olh=\skip48
+\f@ncyO@orh=\skip49
+\f@ncyO@elf=\skip50
+\f@ncyO@erf=\skip51
+\f@ncyO@olf=\skip52
+\f@ncyO@orf=\skip53
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.def
+File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+\@enLab=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count87
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen105
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen106
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks19
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks20
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks21
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+\c@ContinuedFloat=\count101
+Package caption Info: float package is loaded.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
+\subfigcaptopadj=\dimen122
+\subfigbottomskip=\skip59
+\subfigcapmargin=\dimen123
+\subfiglabelskip=\skip60
+\c@subfigure=\count102
+\c@lofdepth=\count103
+\c@subtable=\count104
+\c@lotdepth=\count105
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip61
+\subfig@bottom=\skip62
+)
+
+LaTeX Warning: Unused global option(s):
+    [PWPL].
+
+(./d_lawrence_pwl_2.aux)
+\openout1 = `d_lawrence_pwl_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 13.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 13.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count106
+\scratchdimen=\dimen124
+\scratchbox=\box30
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen125
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+
+Package mathptmx Warning: There are no bold math fonts on input line 17.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 28
+.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 28
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 28
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 28
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for T3+ptm on input line 50.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3ptm.fd
+File: t3ptm.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+
+Overfull \vbox (9.45726pt too high) detected at line 81
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+[2] <M_O_MC_L_1.png, id=17, 243.60674pt x 243.60674pt>
+File: M_O_MC_L_1.png Graphic file (type png)
+ <use M_O_MC_L_1.png>
+Package pdftex.def Info: M_O_MC_L_1.png used on input line 120.
+(pdftex.def)             Requested size: 85.26363pt x 85.26363pt.
+
+<M_Y_MC_L_1.png, id=19, 243.60674pt x 243.60674pt>
+File: M_Y_MC_L_1.png Graphic file (type png)
+ <use M_Y_MC_L_1.png>
+Package pdftex.def Info: M_Y_MC_L_1.png used on input line 124.
+(pdftex.def)             Requested size: 85.26363pt x 85.26363pt.
+
+<M_O_WC_L_1.png, id=20, 243.60674pt x 243.60674pt>
+File: M_O_WC_L_1.png Graphic file (type png)
+ <use M_O_WC_L_1.png>
+Package pdftex.def Info: M_O_WC_L_1.png used on input line 128.
+(pdftex.def)             Requested size: 85.26363pt x 85.26363pt.
+
+<M_Y_WC_L_1.png, id=21, 243.60674pt x 243.60674pt>
+File: M_Y_WC_L_1.png Graphic file (type png)
+ <use M_Y_WC_L_1.png>
+Package pdftex.def Info: M_Y_WC_L_1.png used on input line 132.
+(pdftex.def)             Requested size: 85.26363pt x 85.26363pt.
+
+<M_O_MC_NL_1.png, id=22, 243.60674pt x 243.60674pt>
+File: M_O_MC_NL_1.png Graphic file (type png)
+ <use M_O_MC_NL_1.png>
+Package pdftex.def Info: M_O_MC_NL_1.png used on input line 136.
+(pdftex.def)             Requested size: 85.26363pt x 85.26363pt.
+
+<M_Y_MC_NL_1.png, id=23, 243.60674pt x 243.60674pt>
+File: M_Y_MC_NL_1.png Graphic file (type png)
+ <use M_Y_MC_NL_1.png>
+Package pdftex.def Info: M_Y_MC_NL_1.png used on input line 140.
+(pdftex.def)             Requested size: 85.26363pt x 85.26363pt.
+
+<M_O_WC_NL_1.png, id=24, 243.60674pt x 243.60674pt>
+File: M_O_WC_NL_1.png Graphic file (type png)
+ <use M_O_WC_NL_1.png>
+Package pdftex.def Info: M_O_WC_NL_1.png used on input line 144.
+(pdftex.def)             Requested size: 85.26363pt x 85.26363pt.
+
+<M_Y_WC_NL_1.png, id=25, 243.60674pt x 243.60674pt>
+File: M_Y_WC_NL_1.png Graphic file (type png)
+ <use M_Y_WC_NL_1.png>
+Package pdftex.def Info: M_Y_WC_NL_1.png used on input line 148.
+(pdftex.def)             Requested size: 85.26363pt x 85.26363pt.
+
+[3 <./M_O_MC_L_1.png> <./M_Y_MC_L_1.png> <./M_O_WC_L_1.png> <./M_Y_WC_L_1.png> 
+<./M_O_MC_NL_1.png> <./M_Y_MC_NL_1.png> <./M_O_WC_NL_1.png> <./M_Y_WC_NL_1.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+<uw_yob_small.pdf, id=37, 180.675pt x 180.675pt>
+File: uw_yob_small.pdf Graphic file (type pdf)
+ <use uw_yob_small.pdf>
+Package pdftex.def Info: uw_yob_small.pdf used on input line 168.
+(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
+
+<ow_yob_small.pdf, id=38, 180.675pt x 180.675pt>
+File: ow_yob_small.pdf Graphic file (type pdf)
+ <use ow_yob_small.pdf>
+Package pdftex.def Info: ow_yob_small.pdf used on input line 169.
+(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
+File: uw_yob_small.pdf Graphic file (type pdf)
+
+<use uw_yob_small.pdf>
+Package pdftex.def Info: uw_yob_small.pdf used on input line 171.
+(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
+File: ow_yob_small.pdf Graphic file (type pdf)
+ <use ow_yob_small.pdf>
+Package pdftex.def Info: ow_yob_small.pdf used on input line 172.
+(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
+
+Underfull \vbox (badness 5331) has occurred while \output is active []
+
+ [4]
+<ow_front_dip_small.pdf, id=42, 180.675pt x 180.675pt>
+File: ow_front_dip_small.pdf Graphic file (type pdf)
+
+<use ow_front_dip_small.pdf>
+Package pdftex.def Info: ow_front_dip_small.pdf used on input line 181.
+(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
+ [5 <./uw_yob_small.pdf> <./ow_yob_small.pdf
+
+pdfTeX warning: pdflatex (file ./ow_yob_small.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./ow_front_dip_small.pdf
+
+pdfTeX warning: pdflatex (file ./ow_front_dip_small.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] [6] <u_hypothesis_space.png, id=156, 532.68674pt x 461.22876pt>
+File: u_hypothesis_space.png Graphic file (type png)
+
+<use u_hypothesis_space.png>
+Package pdftex.def Info: u_hypothesis_space.png used on input line 223.
+(pdftex.def)             Requested size: 133.17136pt x 115.3069pt.
+
+<o_hypothesis_space.png, id=157, 532.68674pt x 461.22876pt>
+File: o_hypothesis_space.png Graphic file (type png)
+
+<use o_hypothesis_space.png>
+Package pdftex.def Info: o_hypothesis_space.png used on input line 224.
+(pdftex.def)             Requested size: 133.17136pt x 115.3069pt.
+ [7 <./u_hypothesis_space.png> <./o_hypothesis_space.png>] <model_comparison.pd
+f, id=164, 431.54625pt x 326.93498pt>
+File: model_comparison.pdf Graphic file (type pdf)
+
+<use model_comparison.pdf>
+Package pdftex.def Info: model_comparison.pdf used on input line 247.
+(pdftex.def)             Requested size: 388.38803pt x 294.23875pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 254.
+ <ow_class.pdf, id=165, 180.675pt x 180.675pt>
+File: ow_class.pdf Graphic file (type pdf)
+
+<use ow_class.pdf>
+Package pdftex.def Info: ow_class.pdf used on input line 257.
+(pdftex.def)             Requested size: 144.54018pt x 144.54018pt.
+ <uw_class.pdf, id=166, 180.675pt x 180.675pt>
+File: uw_class.pdf Graphic file (type pdf)
+
+<use uw_class.pdf>
+Package pdftex.def Info: uw_class.pdf used on input line 258.
+(pdftex.def)             Requested size: 144.54018pt x 144.54018pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./model_comparison.pdf>] <ow_local.pdf, id=523, 180.675pt x 180.675pt>
+File: ow_local.pdf Graphic file (type pdf)
+
+<use ow_local.pdf>
+Package pdftex.def Info: ow_local.pdf used on input line 264.
+(pdftex.def)             Requested size: 144.54018pt x 144.54018pt.
+ <uw_local.pdf, id=524, 180.675pt x 180.675pt>
+File: uw_local.pdf Graphic file (type pdf)
+
+<use uw_local.pdf>
+Package pdftex.def Info: uw_local.pdf used on input line 265.
+(pdftex.def)             Requested size: 144.54018pt x 144.54018pt.
+ <ow_chav.pdf, id=525, 180.675pt x 180.675pt>
+File: ow_chav.pdf Graphic file (type pdf)
+
+<use ow_chav.pdf>
+Package pdftex.def Info: ow_chav.pdf used on input line 270.
+(pdftex.def)             Requested size: 144.54018pt x 144.54018pt.
+ <uw_chav.pdf, id=526, 180.675pt x 180.675pt>
+File: uw_chav.pdf Graphic file (type pdf)
+
+<use uw_chav.pdf>
+Package pdftex.def Info: uw_chav.pdf used on input line 271.
+(pdftex.def)             Requested size: 144.54018pt x 144.54018pt.
+ <ow_class_dim3.pdf, id=527, 234.8775pt x 216.81pt>
+File: ow_class_dim3.pdf Graphic file (type pdf)
+
+<use ow_class_dim3.pdf>
+Package pdftex.def Info: ow_class_dim3.pdf used on input line 277.
+(pdftex.def)             Requested size: 187.90225pt x 173.44823pt.
+ <uw_class_age.pdf, id=528, 234.8775pt x 216.81pt>
+File: uw_class_age.pdf Graphic file (type pdf)
+
+<use uw_class_age.pdf>
+Package pdftex.def Info: uw_class_age.pdf used on input line 278.
+(pdftex.def)             Requested size: 187.90225pt x 173.44823pt.
+ [9 <./ow_class.pdf> <./uw_class.pdf
+
+pdfTeX warning: pdflatex (file ./uw_class.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./ow_local.pdf
+
+pdfTeX warning: pdflatex (file ./ow_local.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./uw_local.pdf
+
+pdfTeX warning: pdflatex (file ./uw_local.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./ow_chav.pdf
+
+pdfTeX warning: pdflatex (file ./ow_chav.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./uw_chav.pdf
+
+pdfTeX warning: pdflatex (file ./uw_chav.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] <ow_chav_age.pdf, id=645, 234.8775pt x 216.81pt>
+File: ow_chav_age.pdf Graphic file (type pdf)
+ <use ow_chav_age.pdf>
+Package pdftex.def Info: ow_chav_age.pdf used on input line 283.
+(pdftex.def)             Requested size: 187.90225pt x 173.44823pt.
+
+<uw_chav_age.pdf, id=646, 234.8775pt x 216.81pt>
+File: uw_chav_age.pdf Graphic file (type pdf)
+ <use uw_chav_age.pdf>
+Package pdftex.def Info: uw_chav_age.pdf used on input line 284.
+(pdftex.def)             Requested size: 187.90225pt x 173.44823pt.
+
+(./d_lawrence_pwl_2.bbl
+Underfull \hbox (badness 3514) in paragraph at lines 29--33
+[]\OT1/ptm/m/n/9 Haddican, Bill, Paul Foulkes,
+ []
+
+[10 <./ow_class_dim3.pdf> <./uw_class_age.pdf
+
+pdfTeX warning: pdflatex (file ./uw_class_age.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./ow_chav_age.pdf
+
+pdfTeX warning: pdflatex (file ./ow_chav_age.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+> <./uw_chav_age.pdf
+
+pdfTeX warning: pdflatex (file ./uw_chav_age.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>]) [11] (./d_lawrence_pwl_2.aux) ) 
+Here is how much of TeX's memory you used:
+ 4864 strings out of 493089
+ 69576 string characters out of 6134843
+ 131044 words of memory out of 5000000
+ 8222 multiletter control sequences out of 15000+600000
+ 44681 words of font info for 90 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,25n,43p,1583b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/en
+c/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8
+a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/tipa/xipa10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/tipa/xipab10.pfb>
+Output written on d_lawrence_pwl_2.pdf (11 pages, 2021127 bytes).
+PDF statistics:
+ 793 PDF objects out of 1000 (max. 8388607)
+ 522 compressed objects within 6 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+
