@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.2)  5 AUG 2016 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.2)  28 AUG 2016 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**d_lawrence_pwl_2
-(./d_lawrence_pwl_2.tex
+**d_lawrence_pwl_3
+(./d_lawrence_pwl_3.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -227,8 +227,8 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 LaTeX Warning: Unused global option(s):
     [PWPL].
 
-(./d_lawrence_pwl_2.aux)
-\openout1 = `d_lawrence_pwl_2.aux'.
+(./d_lawrence_pwl_3.aux)
+\openout1 = `d_lawrence_pwl_3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -324,295 +324,283 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 
 Package mathptmx Warning: There are no bold math fonts on input line 16.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 28
-.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 28
-.
+<uw_yob_small.pdf, id=1, 180.675pt x 180.675pt>
+File: uw_yob_small.pdf Graphic file (type pdf)
+ <use uw_yob_small.pdf>
+Package pdftex.def Info: uw_yob_small.pdf used on input line 64.
+(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 28
-.
+<ow_yob_small.pdf, id=2, 180.675pt x 180.675pt>
+File: ow_yob_small.pdf Graphic file (type pdf)
+ <use ow_yob_small.pdf>
+Package pdftex.def Info: ow_yob_small.pdf used on input line 66.
+(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 28
-.
+<ow_front_dip_small.pdf, id=3, 180.675pt x 180.675pt>
+File: ow_front_dip_small.pdf Graphic file (type pdf)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
-LaTeX Font Info:    Try loading font information for T3+ptm on input line 50.
+<use ow_front_dip_small.pdf>
+Package pdftex.def Info: ow_front_dip_small.pdf used on input line 67.
+(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./u
+w_yob_small.pdf> <./ow_yob_small.pdf
+
+pdfTeX warning: pdflatex (file ./ow_yob_small.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <./ow_front_dip_small.pdf
+
+pdfTeX warning: pdflatex (file ./ow_front_dip_small.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] <u_hypothesis_space.png, id=122, 532.68674pt x 461.22876pt>
+File: u_hypothesis_space.png Graphic file (type png)
+
+<use u_hypothesis_space.png>
+Package pdftex.def Info: u_hypothesis_space.png used on input line 108.
+(pdftex.def)             Requested size: 106.53545pt x 92.24411pt.
+
+<o_hypothesis_space.png, id=124, 532.68674pt x 461.22876pt>
+File: o_hypothesis_space.png Graphic file (type png)
+
+<use o_hypothesis_space.png>
+Package pdftex.def Info: o_hypothesis_space.png used on input line 109.
+(pdftex.def)             Requested size: 106.53545pt x 92.24411pt.
+LaTeX Font Info:    Try loading font information for T3+ptm on input line 118.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3ptm.fd
 File: t3ptm.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
- [1
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13
+1.
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (10.1334pt too high) detected at line 68
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13
+1.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13
+1.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13
+1.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+
+Overfull \vbox (38.58615pt too high) detected at line 135
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 
-Overfull \vbox (9.8445pt too high) detected at line 88
+Overfull \vbox (9.00652pt too high) detected at line 154
  []
 
-<M_O_MC_L_1.png, id=10, 243.60674pt x 243.60674pt>
+
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+ [3 <./u_hypothesis_space.png> <./o_hypothesis_space.png>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
+
+<M_O_MC_L_1.png, id=132, 243.60674pt x 243.60674pt>
 File: M_O_MC_L_1.png Graphic file (type png)
  <use M_O_MC_L_1.png>
-Package pdftex.def Info: M_O_MC_L_1.png used on input line 108.
+Package pdftex.def Info: M_O_MC_L_1.png used on input line 173.
 (pdftex.def)             Requested size: 60.90152pt x 60.90152pt.
 
-<M_Y_MC_L_1.png, id=12, 243.60674pt x 243.60674pt>
+<M_Y_MC_L_1.png, id=133, 243.60674pt x 243.60674pt>
 File: M_Y_MC_L_1.png Graphic file (type png)
  <use M_Y_MC_L_1.png>
-Package pdftex.def Info: M_Y_MC_L_1.png used on input line 112.
+Package pdftex.def Info: M_Y_MC_L_1.png used on input line 173.
 (pdftex.def)             Requested size: 60.90152pt x 60.90152pt.
 
-<M_O_WC_L_1.png, id=13, 243.60674pt x 243.60674pt>
+<M_O_WC_L_1.png, id=134, 243.60674pt x 243.60674pt>
 File: M_O_WC_L_1.png Graphic file (type png)
  <use M_O_WC_L_1.png>
-Package pdftex.def Info: M_O_WC_L_1.png used on input line 116.
+Package pdftex.def Info: M_O_WC_L_1.png used on input line 173.
 (pdftex.def)             Requested size: 60.90152pt x 60.90152pt.
 
-<M_Y_WC_L_1.png, id=14, 243.60674pt x 243.60674pt>
+<M_Y_WC_L_1.png, id=135, 243.60674pt x 243.60674pt>
 File: M_Y_WC_L_1.png Graphic file (type png)
  <use M_Y_WC_L_1.png>
-Package pdftex.def Info: M_Y_WC_L_1.png used on input line 120.
+Package pdftex.def Info: M_Y_WC_L_1.png used on input line 173.
 (pdftex.def)             Requested size: 60.90152pt x 60.90152pt.
 
-<M_O_MC_NL_1.png, id=15, 243.60674pt x 243.60674pt>
+<M_O_MC_NL_1.png, id=136, 243.60674pt x 243.60674pt>
 File: M_O_MC_NL_1.png Graphic file (type png)
  <use M_O_MC_NL_1.png>
-Package pdftex.def Info: M_O_MC_NL_1.png used on input line 124.
+Package pdftex.def Info: M_O_MC_NL_1.png used on input line 175.
 (pdftex.def)             Requested size: 60.90152pt x 60.90152pt.
 
-<M_Y_MC_NL_1.png, id=16, 243.60674pt x 243.60674pt>
+<M_Y_MC_NL_1.png, id=137, 243.60674pt x 243.60674pt>
 File: M_Y_MC_NL_1.png Graphic file (type png)
  <use M_Y_MC_NL_1.png>
-Package pdftex.def Info: M_Y_MC_NL_1.png used on input line 128.
+Package pdftex.def Info: M_Y_MC_NL_1.png used on input line 175.
 (pdftex.def)             Requested size: 60.90152pt x 60.90152pt.
 
-<M_O_WC_NL_1.png, id=17, 243.60674pt x 243.60674pt>
+<M_O_WC_NL_1.png, id=138, 243.60674pt x 243.60674pt>
 File: M_O_WC_NL_1.png Graphic file (type png)
  <use M_O_WC_NL_1.png>
-Package pdftex.def Info: M_O_WC_NL_1.png used on input line 132.
+Package pdftex.def Info: M_O_WC_NL_1.png used on input line 175.
 (pdftex.def)             Requested size: 60.90152pt x 60.90152pt.
 
-<M_Y_WC_NL_1.png, id=18, 243.60674pt x 243.60674pt>
+<M_Y_WC_NL_1.png, id=139, 243.60674pt x 243.60674pt>
 File: M_Y_WC_NL_1.png Graphic file (type png)
  <use M_Y_WC_NL_1.png>
-Package pdftex.def Info: M_Y_WC_NL_1.png used on input line 136.
+Package pdftex.def Info: M_Y_WC_NL_1.png used on input line 175.
 (pdftex.def)             Requested size: 60.90152pt x 60.90152pt.
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-
- []
-
-[3 <./M_O_MC_L_1.png> <./M_Y_MC_L_1.png> <./M_O_WC_L_1.png> <./M_Y_WC_L_1.png> 
+[4 <./M_O_MC_L_1.png> <./M_Y_MC_L_1.png> <./M_O_WC_L_1.png> <./M_Y_WC_L_1.png> 
 <./M_O_MC_NL_1.png> <./M_Y_MC_NL_1.png> <./M_O_WC_NL_1.png> <./M_Y_WC_NL_1.png>
-] <uw_yob_small.pdf, id=37, 180.675pt x 180.675pt>
-File: uw_yob_small.pdf Graphic file (type pdf)
- <use uw_yob_small.pdf>
-Package pdftex.def Info: uw_yob_small.pdf used on input line 151.
-(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
-
-<ow_yob_small.pdf, id=38, 180.675pt x 180.675pt>
-File: ow_yob_small.pdf Graphic file (type pdf)
- <use ow_yob_small.pdf>
-Package pdftex.def Info: ow_yob_small.pdf used on input line 152.
-(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
-File: uw_yob_small.pdf Graphic file (type pdf)
-
-<use uw_yob_small.pdf>
-Package pdftex.def Info: uw_yob_small.pdf used on input line 154.
-(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
-File: ow_yob_small.pdf Graphic file (type pdf)
- <use ow_yob_small.pdf>
-Package pdftex.def Info: ow_yob_small.pdf used on input line 155.
-(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
- [4 <./uw_yob_small.pdf> <./ow_yob_small.pdf
-
-pdfTeX warning: pdflatex (file ./ow_yob_small.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
->] <ow_front_dip_small.pdf, id=109, 180.675pt x 180.675pt>
-File: ow_front_dip_small.pdf Graphic file (type pdf)
-
-<use ow_front_dip_small.pdf>
-Package pdftex.def Info: ow_front_dip_small.pdf used on input line 164.
-(pdftex.def)             Requested size: 126.47162pt x 126.47162pt.
- [5 <./ow_front_dip_small.pdf>]
-<u_hypothesis_space.png, id=154, 532.68674pt x 461.22876pt>
-File: u_hypothesis_space.png Graphic file (type png)
-
-<use u_hypothesis_space.png>
-Package pdftex.def Info: u_hypothesis_space.png used on input line 206.
-(pdftex.def)             Requested size: 133.17136pt x 115.3069pt.
-
-<o_hypothesis_space.png, id=155, 532.68674pt x 461.22876pt>
-File: o_hypothesis_space.png Graphic file (type png)
-
-<use o_hypothesis_space.png>
-Package pdftex.def Info: o_hypothesis_space.png used on input line 207.
-(pdftex.def)             Requested size: 133.17136pt x 115.3069pt.
- [6 <./u_hypothesis_space.png> <./o_hypothesis_space.png>] <model_comparison.pd
-f, id=161, 431.54625pt x 326.93498pt>
+] [5] <model_comparison.pdf, id=156, 431.54625pt x 326.93498pt>
 File: model_comparison.pdf Graphic file (type pdf)
 
 <use model_comparison.pdf>
-Package pdftex.def Info: model_comparison.pdf used on input line 230.
+Package pdftex.def Info: model_comparison.pdf used on input line 219.
 (pdftex.def)             Requested size: 323.65889pt x 245.20062pt.
- [7 <./model_comparison.pdf>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 243.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 256.
-
-<ow_class.pdf, id=519, 180.675pt x 180.675pt>
-File: ow_class.pdf Graphic file (type pdf)
- <use ow_class.pdf>
-Package pdftex.def Info: ow_class.pdf used on input line 259.
-(pdftex.def)             Requested size: 135.5059pt x 135.5059pt.
-
-<uw_class.pdf, id=520, 180.675pt x 180.675pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 231.
+ [6 <./model_comparison.pdf>]
+<uw_class.pdf, id=514, 180.675pt x 180.675pt>
 File: uw_class.pdf Graphic file (type pdf)
  <use uw_class.pdf>
-Package pdftex.def Info: uw_class.pdf used on input line 260.
-(pdftex.def)             Requested size: 135.5059pt x 135.5059pt.
+Package pdftex.def Info: uw_class.pdf used on input line 249.
+(pdftex.def)             Requested size: 117.43735pt x 117.43735pt.
 
-<ow_local.pdf, id=521, 180.675pt x 180.675pt>
-File: ow_local.pdf Graphic file (type pdf)
- <use ow_local.pdf>
-Package pdftex.def Info: ow_local.pdf used on input line 266.
-(pdftex.def)             Requested size: 135.5059pt x 135.5059pt.
-
-<uw_local.pdf, id=522, 180.675pt x 180.675pt>
+<uw_local.pdf, id=515, 180.675pt x 180.675pt>
 File: uw_local.pdf Graphic file (type pdf)
  <use uw_local.pdf>
-Package pdftex.def Info: uw_local.pdf used on input line 267.
-(pdftex.def)             Requested size: 135.5059pt x 135.5059pt.
+Package pdftex.def Info: uw_local.pdf used on input line 250.
+(pdftex.def)             Requested size: 117.43735pt x 117.43735pt.
 
-<ow_chav.pdf, id=523, 180.675pt x 180.675pt>
-File: ow_chav.pdf Graphic file (type pdf)
- <use ow_chav.pdf>
-Package pdftex.def Info: ow_chav.pdf used on input line 272.
-(pdftex.def)             Requested size: 135.5059pt x 135.5059pt.
-
-<uw_chav.pdf, id=524, 180.675pt x 180.675pt>
+<uw_chav.pdf, id=516, 180.675pt x 180.675pt>
 File: uw_chav.pdf Graphic file (type pdf)
  <use uw_chav.pdf>
-Package pdftex.def Info: uw_chav.pdf used on input line 273.
-(pdftex.def)             Requested size: 135.5059pt x 135.5059pt.
+Package pdftex.def Info: uw_chav.pdf used on input line 251.
+(pdftex.def)             Requested size: 117.43735pt x 117.43735pt.
 
-<ow_class_dim3.pdf, id=525, 234.8775pt x 216.81pt>
-File: ow_class_dim3.pdf Graphic file (type pdf)
- <use ow_class_dim3.pdf>
-Package pdftex.def Info: ow_class_dim3.pdf used on input line 279.
-(pdftex.def)             Requested size: 187.90225pt x 173.44823pt.
+<ow_class.pdf, id=517, 180.675pt x 180.675pt>
+File: ow_class.pdf Graphic file (type pdf)
+ <use ow_class.pdf>
+Package pdftex.def Info: ow_class.pdf used on input line 260.
+(pdftex.def)             Requested size: 117.43735pt x 117.43735pt.
 
-<uw_class_age.pdf, id=526, 234.8775pt x 216.81pt>
-File: uw_class_age.pdf Graphic file (type pdf)
- <use uw_class_age.pdf>
-Package pdftex.def Info: uw_class_age.pdf used on input line 280.
-(pdftex.def)             Requested size: 187.90225pt x 173.44823pt.
+<ow_local.pdf, id=518, 180.675pt x 180.675pt>
+File: ow_local.pdf Graphic file (type pdf)
+ <use ow_local.pdf>
+Package pdftex.def Info: ow_local.pdf used on input line 261.
+(pdftex.def)             Requested size: 117.43735pt x 117.43735pt.
 
-Underfull \vbox (badness 6316) has occurred while \output is active []
-
- [8 <./ow_class.pdf> <./uw_class.pdf
-
-pdfTeX warning: pdflatex (file ./uw_class.pdf): PDF inclusion: multiple pdfs wi
-th page group included in a single page
->] <ow_chav_age.pdf, id=568, 234.8775pt x 216.81pt>
-File: ow_chav_age.pdf Graphic file (type pdf)
- <use ow_chav_age.pdf>
-Package pdftex.def Info: ow_chav_age.pdf used on input line 285.
-(pdftex.def)             Requested size: 187.90225pt x 173.44823pt.
-
-<uw_chav_age.pdf, id=569, 234.8775pt x 216.81pt>
-File: uw_chav_age.pdf Graphic file (type pdf)
- <use uw_chav_age.pdf>
-Package pdftex.def Info: uw_chav_age.pdf used on input line 286.
-(pdftex.def)             Requested size: 187.90225pt x 173.44823pt.
-
-(./d_lawrence_pwl_2.bbl
-Underfull \vbox (badness 1253) has occurred while \output is active []
-
- [9 <./ow_local.pdf> <./uw_local.pdf
+<ow_chav.pdf, id=519, 180.675pt x 180.675pt>
+File: ow_chav.pdf Graphic file (type pdf)
+ <use ow_chav.pdf>
+Package pdftex.def Info: ow_chav.pdf used on input line 262.
+(pdftex.def)             Requested size: 117.43735pt x 117.43735pt.
+ [7 <./uw_class.pdf> <./uw_local.pdf
 
 pdfTeX warning: pdflatex (file ./uw_local.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./uw_chav.pdf
+
+pdfTeX warning: pdflatex (file ./uw_chav.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./ow_class.pdf
+
+pdfTeX warning: pdflatex (file ./ow_class.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./ow_local.pdf
+
+pdfTeX warning: pdflatex (file ./ow_local.pdf): PDF inclusion: multiple pdfs wi
 th page group included in a single page
 > <./ow_chav.pdf
 
 pdfTeX warning: pdflatex (file ./ow_chav.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
-> <./uw_chav.pdf
+>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 275.
+ <ow_class_dim3.pdf, id=637, 234.8775pt x 216.81pt>
+File: ow_class_dim3.pdf Graphic file (type pdf)
+ <use ow_class_dim3.pdf>
+Package pdftex.def Info: ow_class_dim3.pdf used on input line 281.
+(pdftex.def)             Requested size: 140.92758pt x 130.08699pt.
 
-pdfTeX warning: pdflatex (file ./uw_chav.pdf): PDF inclusion: multiple pdfs wit
-h page group included in a single page
-> <./ow_class_dim3.pdf
+<uw_class_age.pdf, id=638, 234.8775pt x 216.81pt>
+File: uw_class_age.pdf Graphic file (type pdf)
+ <use uw_class_age.pdf>
+Package pdftex.def Info: uw_class_age.pdf used on input line 284.
+(pdftex.def)             Requested size: 140.92758pt x 130.08699pt.
 
-pdfTeX warning: pdflatex (file ./ow_class_dim3.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
-> <./uw_class_age.pdf
+<ow_chav_age.pdf, id=639, 234.8775pt x 216.81pt>
+File: ow_chav_age.pdf Graphic file (type pdf)
+ <use ow_chav_age.pdf>
+Package pdftex.def Info: ow_chav_age.pdf used on input line 292.
+(pdftex.def)             Requested size: 140.92758pt x 130.08699pt.
+
+<uw_chav_age.pdf, id=640, 234.8775pt x 216.81pt>
+File: uw_chav_age.pdf Graphic file (type pdf)
+ <use uw_chav_age.pdf>
+Package pdftex.def Info: uw_chav_age.pdf used on input line 294.
+(pdftex.def)             Requested size: 140.92758pt x 130.08699pt.
+ [8 <./ow_class_dim3.pdf> <./uw_class_age.pdf
 
 pdfTeX warning: pdflatex (file ./uw_class_age.pdf): PDF inclusion: multiple pdf
 s with page group included in a single page
->]
-Underfull \hbox (badness 1789) in paragraph at lines 29--33
+>] (./d_lawrence_pwl_3.bbl
+Underfull \hbox (badness 1789) in paragraph at lines 43--47
 []\OT1/ptm/m/n/10 Haddican, Bill, Paul Foulkes,
  []
 
-) [10 <./ow_chav_age.pdf> <./uw_chav_age.pdf
+[9 <./ow_chav_age.pdf> <./uw_chav_age.pdf
 
 pdfTeX warning: pdflatex (file ./uw_chav_age.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->] (./d_lawrence_pwl_2.aux) ) 
+>]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+) [10] (./d_lawrence_pwl_3.aux) ) 
 Here is how much of TeX's memory you used:
- 4813 strings out of 493089
- 68895 string characters out of 6134843
- 133758 words of memory out of 5000000
- 8175 multiletter control sequences out of 15000+600000
- 45549 words of font info for 90 fonts, out of 8000000 for 9000
+ 4812 strings out of 493089
+ 68877 string characters out of 6134843
+ 131721 words of memory out of 5000000
+ 8172 multiletter control sequences out of 15000+600000
+ 48296 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,25n,43p,1647b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvip
-s/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/tipa/xipa10.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/tipa/xipab10.pfb>
-Output written on d_lawrence_pwl_2.pdf (10 pages, 2020002 bytes).
+ 38i,25n,43p,1569b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/
+dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/tipa/xipa10.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/tipa/xipab10.pfb>
+Output written on d_lawrence_pwl_3.pdf (10 pages, 2020748 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
+ 791 PDF objects out of 1000 (max. 8388607)
+ 521 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
