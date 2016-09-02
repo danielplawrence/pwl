@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: d_lawrence_pwl_3.aux
 The style file: pwpl.bst.bst
 Database file #1: reviewbib_short.bib.bib
-You've used 13 entries,
+You've used 19 entries,
             2720 wiz_defined-function locations,
-            682 strings with 7059 characters,
-and the built_in function-call counts, 6214 in all, are:
-= -- 633
-> -- 275
-< -- 10
-+ -- 99
-- -- 80
-* -- 495
-:= -- 1135
-add.period$ -- 53
-call.type$ -- 13
-change.case$ -- 104
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 254
-empty$ -- 414
-format.name$ -- 114
-if$ -- 1212
+            718 strings with 7869 characters,
+and the built_in function-call counts, 8588 in all, are:
+= -- 870
+> -- 360
+< -- 17
++ -- 133
+- -- 104
+* -- 656
+:= -- 1584
+add.period$ -- 78
+call.type$ -- 19
+change.case$ -- 147
+chr.to.int$ -- 19
+cite$ -- 19
+duplicate$ -- 360
+empty$ -- 595
+format.name$ -- 148
+if$ -- 1682
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 85
-num.names$ -- 54
-pop$ -- 73
+missing$ -- 19
+newline$ -- 121
+num.names$ -- 78
+pop$ -- 101
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 110
 quote$ -- 0
-skip$ -- 156
+skip$ -- 225
 stack$ -- 0
-substring$ -- 428
-swap$ -- 38
-text.length$ -- 1
+substring$ -- 564
+swap$ -- 48
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 117
+type$ -- 165
 warning$ -- 0
-while$ -- 63
+while$ -- 88
 width$ -- 0
-write$ -- 190
+write$ -- 273

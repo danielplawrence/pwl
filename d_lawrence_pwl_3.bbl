@@ -1,8 +1,28 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{19}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Alan(2010)}]{alan2010perceptual}
+\vspace*{-7pt}
+Alan, CL. 2010.
+\newblock Perceptual compensation is correlated with individuals'“autistic”
+  traits: Implications for models of sound change.
+\newblock {\em PloS one\/} 5:e11950.
+
+\bibitem[{Baranowski(2008)}]{baranowski2008fronting}
+\vspace*{-7pt}
+Baranowski, Maciej. 2008.
+\newblock The fronting of the back upgliding vowels in charleston, south
+  carolina.
+\newblock {\em Language Variation and Change\/} 20:527--551.
+
+\bibitem[{Barron-Lutzross(2015)}]{Lutzross2015production}
+\vspace*{-7pt}
+Barron-Lutzross, Auburn. 2015.
+\newblock The production and perception of a lesbian speech style.
+\newblock UC Berkeley Phonology Lab Annual Report (2015).
 
 \bibitem[{Beal(2004)}]{beal2008english}
 \vspace*{-7pt}
@@ -31,12 +51,6 @@ Ester, Martin, Hans-Peter Kriegel, J{\"o}rg Sander, and Xiaowei Xu. 1996.
   databases with noise.
 \newblock {\em Kdd\/} 96:226--231.
 
-\bibitem[{Fruehwald(2013)}]{fruehwald2013phonological}
-\vspace*{-7pt}
-Fruehwald, Josef. 2013.
-\newblock The Phonological Influence on Phonetic Change.
-\newblock Doctoral dissertation, University of Pennsylvania.
-
 \bibitem[{Haddican et~al.(2013)Haddican, Foulkes, Hughes, and
   Richards}]{haddican2013interaction}
 \vspace*{-7pt}
@@ -51,14 +65,25 @@ Hall-Lew, Lauren. 2009.
 \newblock Ethnicity and phonetic variation in a San Francisco neighborhood.
 \newblock Doctoral dissertation, Stanford University.
 
-\bibitem[{Harrington et~al.(2008)Harrington, Kleber, and
-  Reubold}]{harrington2008compensation}
+\bibitem[{Hayward and Yar(2006)}]{hayward2006chav}
 \vspace*{-7pt}
-Harrington, Jonathan, Felicitas Kleber, and Ulrich Reubold. 2008.
-\newblock Compensation for coarticulation,/u/-fronting, and sound change in
-  standard southern british: An acoustic and perceptual study.
-\newblock {\em The Journal of the Acoustical Society of America\/}
-  123:2825--2835.
+Hayward, Keith, and Majid Yar. 2006.
+\newblock The ‘chav’phenomenon: Consumption, media and the construction of
+  a new underclass.
+\newblock {\em Crime, Media, Culture\/} 2:9--28.
+
+\bibitem[{Jeffries(2015)}]{jeffries2015pre}
+\vspace*{-7pt}
+Jeffries, Ella. 2015.
+\newblock Pre-school children's identification of familiar speakers and the
+  role of accent features.
+\newblock {\em York Papers in Linguistics\/} 2:15--40.
+
+\bibitem[{Labov(1972)}]{labov1972sociolinguistic}
+\vspace*{-7pt}
+Labov, William. 1972.
+\newblock {\em Sociolinguistic patterns\/}.
+\newblock 4. University of Pennsylvania Press.
 
 \bibitem[{Labov et~al.(2013)Labov, Rosenfelder, and Fruehwald}]{labov2013one}
 \vspace*{-7pt}
@@ -67,11 +92,34 @@ Labov, William, Ingrid Rosenfelder, and Josef Fruehwald. 2013.
   incrementation, reversal, and reanalysis.
 \newblock {\em Language\/} 89:30--65.
 
+\bibitem[{Mesthrie(2010)}]{mesthrie2010socio}
+\vspace*{-7pt}
+Mesthrie, Rajend. 2010.
+\newblock Socio-phonetics and social change: Deracialisation of the goose vowel
+  in south african english1.
+\newblock {\em Journal of sociolinguistics\/} 14:3--33.
+
 \bibitem[{Moore and Podesva(2009)}]{moore2009style}
 \vspace*{-7pt}
 Moore, Emma, and Robert Podesva. 2009.
 \newblock Style, indexicality, and the social meaning of tag questions.
 \newblock {\em Language in Society\/} 38:447--485.
+
+\bibitem[{R{\'a}cz(2013)}]{racz2013salience}
+\vspace*{-7pt}
+R{\'a}cz, P{\'e}ter. 2013.
+\newblock {\em Salience in sociolinguistics: A quantitative approach\/},
+  volume~84.
+\newblock Walter de Gruyter.
+
+\bibitem[{Walker et~al.(2014)Walker, Garc{\'\i}a, Cort{\'e}s, and
+  Campbell-Kibler}]{walker2014comparing}
+\vspace*{-7pt}
+Walker, Abby, Christina Garc{\'\i}a, Yomi Cort{\'e}s, and Kathryn
+  Campbell-Kibler. 2014.
+\newblock Comparing social meanings across listener and speaker groups: The
+  indexical field of spanish/s.
+\newblock {\em Language Variation and Change\/} 26:169--189.
 
 \bibitem[{Watt and Fabricius(2002)}]{watt2002evaluation}
 \vspace*{-7pt}
@@ -85,12 +133,5 @@ Watt, Dominic, and Anne Fabricius. 2002.
 Watt, Dominic, and Jennifer Tillotson. 2001.
 \newblock A spectrographic analysis of vowel fronting in bradford english.
 \newblock {\em English World-Wide\/} 22:269--303.
-
-\bibitem[{Watt(2000)}]{watt2000phonetic}
-\vspace*{-7pt}
-Watt, Dominic~JL. 2000.
-\newblock Phonetic parallels between the close-mid vowels of {T}yneside
-  {E}nglish: Are they internally or externally motivated?
-\newblock {\em Language Variation and Change\/} 12:69--101.
 
 \end{thebibliography}
